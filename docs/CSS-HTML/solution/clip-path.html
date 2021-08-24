@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="test-box-wrapper">
+    <div class="test-box">clip-path</div>
+  </div>
+  <style>
+    .test-box-wrapper {
+      width: 200px;
+      height: 200px;
+      margin: 100px auto;
+      line-height: 200px;
+      text-align: center;
+      background-color: tomato;
+      color: white;
+    }
+    .test-box {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+    }
+  </style>
+
+  <!-- inset必选参数 -->
+  <style>
+    .clip-inset {
+      clip-path: inset(10px 20px 10px 10px);
+    }
+  </style>
+
+  <!-- inset可选参数 -->
+  <style>
+    .clip-inset-radius {
+      clip-path: inset(10px 20px 10px 10px round 10px);
+    }
+  </style>
+
+  <!-- circle必选参数 -->
+  <style>
+    .clip-circle {
+      clip-path: circle(40px);
+    }
+  </style>
+
+  <!-- circle可选参数 -->
+  <style>
+    .clip-circle-position {
+      clip-path: circle(40px at 0 0);
+    }
+  </style>
+
+  <!-- circle必选参数 -->
+  <style>
+    .clip-polygon {
+      clip-path: polygon(0 0, 100% 100%, 100% 0, 0 100%);
+    }
+  </style>
+  
+  <!-- circle可选参数 -->
+  <style>
+    .clip-polygon-fill-rule {
+      clip-path: polygon(evenodd ,0 0, 100% 100%, 100% 0, 0 100%);
+    }
+  </style>
+</body>
+</html>

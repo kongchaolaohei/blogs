@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import path from 'path'
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
@@ -7,64 +8,50 @@ export default defineUserConfig<DefaultThemeOptions>({
   description: 'Just playing around',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
+    tip: '提示',
+    warning: '注意',
+    danger: '警告',
     navbar: [
       {
-        text: '打好基础',
+        text: '常用知识',
         children: [
           {
             text: 'CSS&HTML',
-            link: '/CSS-HTML/base/guide.md'
+            link: '/CSS-HTML/commonly/guide.md'
           },
           {
             text: 'JavaScript',
-            link: '/javascript/base/guide.md'
-          },
-          {
-            text: '其他',
-            link: '/other/base/guide.md'
-          }
-        ]
-      },
-      {
-        text: '总是忘记',
-        children: [
-          {
-            text: 'CSS&HTML',
-            link: '/CSS-HTML/forget/guide.md'
-          },
-          {
-            text: 'JavaScript',
-            link: '/JavaScript/forget/guide.md'
+            link: '/javascript/commonly/guide.md'
           },
           {
             text: 'git',
-            link: '/git/forget/guide.md'
+            link: '/git/commonly/guide.md'
           },
           {
             text: '其他',
-            link: '/other/forget/guide.md'
+            link: '/other/commonly/guide.md'
           }
         ]
       },
       {
-        text: '神奇操作',
+        text: '解决方案',
         children: [
           {
             text: 'CSS&HTML',
-            link: '/CSS-HTML/clever/guide.md'
-          },
-          {
-            text: 'JavaScript',
-            link: '/JavaScript/clever/guide.md'
+            link: '/CSS-HTML/solution/多边形制作.md'
           },
           // {
-          //   text: '浏览器',
-          //   link: '/CSS-HTML/clever/guide.md'
+          //   text: 'JavaScript',
+          //   link: '/JavaScript/solution/guide.md'
           // },
-          {
-            text: '其他',
-            link: '/other/clever/guide.md'
-          }
+          // {
+          //   text: '浏览器',
+          //   link: '/CSS-HTML/solution/guide.md'
+          // },
+          // {
+          //   text: '其他',
+          //   link: '/other/solution/guide.md'
+          // }
         ]
       },
       {
@@ -79,77 +66,52 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     sidebar: {
       // 基础模块路由
-      '/CSS-HTML/base/': [
+      '/CSS-HTML/commonly/': [
         {
           text: 'CSS&HTML基础',
           children: [
-            '/CSS-HTML/base/guide.md'
+            '/CSS-HTML/commonly/guide.md'
           ]
         }
       ],
-      '/javascript/base/': [
+      '/javascript/commonly/': [
         {
           text: 'JavaScript基础',
           children: [
-            '/javascript/base/guide.md'
+            '/javascript/commonly/guide.md'
           ]
         },
       ],
-      '/other/base/': [
+      '/other/commonly/': [
         {
           text: '其他基础',
           children: [
-            '/other/base/guide.md'
-          ]
-        },
-      ],
-      // 总是忘记 模块路由
-      '/CSS-HTML/forget/': [
-        {
-          text: 'CSS&HTML基础',
-          children: [
-            '/CSS-HTML/forget/guide.md'
-          ]
-        }
-      ],
-      '/javascript/forget/': [
-        {
-          text: 'JavaScript基础',
-          children: [
-            '/javascript/forget/guide.md'
-          ]
-        },
-      ],
-      '/other/forget/': [
-        {
-          text: '其他基础',
-          children: [
-            '/other/forget/guide.md'
+            '/other/commonly/guide.md'
           ]
         },
       ],
       // 神奇操作 模块路由
-      '/CSS-HTML/clever/': [
+      '/CSS-HTML/solution/': [
         {
-          text: 'CSS&HTML基础',
+          text: 'CSS&HTML的神奇操作',
           children: [
-            '/CSS-HTML/clever/guide.md'
+            '/CSS-HTML/solution/多边形制作.md'
           ]
         }
       ],
-      '/javascript/clever/': [
+      '/javascript/solution/': [
         {
           text: 'JavaScript基础',
           children: [
-            '/javascript/clever/guide.md'
+            '/javascript/solution/guide.md'
           ]
         },
       ],
-      '/other/clever/': [
+      '/other/solution/': [
         {
           text: '其他基础',
           children: [
-            '/other/clever/guide.md'
+            '/other/solution/guide.md'
           ]
         },
       ],
