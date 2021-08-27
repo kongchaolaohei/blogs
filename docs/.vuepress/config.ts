@@ -17,19 +17,15 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: [
           {
             text: 'CSS&HTML',
-            link: '/CSS-HTML/commonly/guide.md'
+            link: '/commonly/CSS-HTML/commonly.md'
           },
           {
             text: 'JavaScript',
-            link: '/javascript/commonly/guide.md'
+            link: '/commonly/javascript/commonly.md'
           },
           {
             text: 'git',
-            link: '/git/commonly/guide.md'
-          },
-          {
-            text: '其他',
-            link: '/other/commonly/guide.md'
+            link: '/commonly/git/commonly.md'
           }
         ]
       },
@@ -38,83 +34,71 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: [
           {
             text: 'CSS&HTML',
-            link: '/CSS-HTML/solution/多边形制作.md'
-          },
-          // {
-          //   text: 'JavaScript',
-          //   link: '/JavaScript/solution/guide.md'
-          // },
-          // {
-          //   text: '浏览器',
-          //   link: '/CSS-HTML/solution/guide.md'
-          // },
-          // {
-          //   text: '其他',
-          //   link: '/other/solution/guide.md'
-          // }
+            link: '/solution/CSS-HTML/多边形绘制.md'
+          }
         ]
       },
       {
         text: '更多',
         children: [
           {
-            text: '常用网站',
-            link: '/'
+            text: '常用网站&工具',
+            link: '/more/usedWeb.md'
           }
         ]
       }
     ],
     sidebar: {
-      // 基础模块路由
-      '/CSS-HTML/commonly/': [
+      /* -----------------------常用知识 模块路由----------------------- */
+      '/commonly/': [
         {
-          text: 'CSS&HTML基础',
+          text: 'CSS&HTML常用操作',
           children: [
-            '/CSS-HTML/commonly/guide.md'
+            '/commonly/CSS-HTML/commonly.md',
+            '/commonly/CSS-HTML/clip-path/clip-path.md',
+            '/commonly/CSS-HTML/transform/transform.md'
           ]
-        }
-      ],
-      '/javascript/commonly/': [
+        },
         {
-          text: 'JavaScript基础',
+          text: 'JavaScript常用操作',
           children: [
-            '/javascript/commonly/guide.md'
+            '/commonly/javascript/commonly.md'
+          ]
+        },
+        {
+          text: 'git常用操作',
+          children: [
+            '/commonly/git/commonly.md'
           ]
         },
       ],
-      '/other/commonly/': [
+      /* -----------------------解决方案 模块路由----------------------- */
+      '/solution/': [
         {
-          text: '其他基础',
+          text: 'CSS&HTML解决方案',
           children: [
-            '/other/commonly/guide.md'
+            '/solution/CSS-HTML/多边形绘制.md'
           ]
         },
-      ],
-      // 神奇操作 模块路由
-      '/CSS-HTML/solution/': [
         {
-          text: 'CSS&HTML的神奇操作',
+          text: '其他解决方案',
           children: [
-            '/CSS-HTML/solution/多边形制作.md'
-          ]
-        }
-      ],
-      '/javascript/solution/': [
-        {
-          text: 'JavaScript基础',
-          children: [
-            '/javascript/solution/guide.md'
+            '/solution/other/echart图例触发不灵敏.md',
+            '/solution/other/简单的websocket工具.md'
           ]
         },
+        // {
+        //   text: 'JavaScript解决方案',
+        //   children: [
+        //     '/solution/javascript/solution.md'
+        //   ]
+        // }
       ],
-      '/other/solution/': [
-        {
-          text: '其他基础',
-          children: [
-            '/other/solution/guide.md'
-          ]
-        },
-      ],
+      /* -----------------------其他 模块路由----------------------- */
+      '/more/': [
+        '/more/commonly.md',
+        '/more/usedWeb.md',
+      ]
     }
   },
 })

@@ -1,13 +1,13 @@
 ---
 home: true
-heroText: 一个学习的起点
+heroText: 一本属于个人的技术字典
 tagline: null
 
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
+  - title: 常用知识
+    details: 各种高频使用,却又总是忘记细节知识的汇总笔记,常看常新.
+  - title: 解决方案
+    details: 对遇到过问题的解决方案进行汇总,以便于再次遇到是更快的解决
+  - title: 网站&工具
+    details: 对更多意想不到的知识,工具,网站的存放地
 ---
