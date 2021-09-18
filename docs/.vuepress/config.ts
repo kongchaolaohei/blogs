@@ -81,10 +81,17 @@ export default defineUserConfig<DefaultThemeOptions>({
           ]
         },
         {
+          text: 'Vue相关解决方案',
+          children: [
+            '/solution/vue/vue权限解决方案.md'
+          ]
+        },
+        {
           text: '其他解决方案',
           children: [
             '/solution/other/echart图例触发不灵敏.md',
-            '/solution/other/简单的websocket工具.md'
+            '/solution/other/简单的websocket工具.md',
+            '/solution/other/不同页面通讯问题.md'
           ]
         },
         // {
