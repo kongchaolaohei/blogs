@@ -13,39 +13,42 @@ export default defineUserConfig<DefaultThemeOptions>({
     danger: '警告',
     navbar: [
       {
-        text: '常用知识',
-        children: [
-          {
-            text: 'CSS&HTML',
-            link: '/commonly/CSS-HTML/commonly.md'
-          },
-          {
-            text: 'JavaScript',
-            link: '/commonly/javascript/commonly.md'
-          },
-          {
-            text: 'git',
-            link: '/commonly/git/commonly.md'
-          }
-        ]
+        text: '解决方案',
+        link: '/solution/CSS-HTML/多边形绘制.md'
+        // children: [
+        //   {
+        //     text: 'CSS&HTML',
+        //     link: '/solution/CSS-HTML/多边形绘制.md'
+        //   }
+        // ]
       },
       {
-        text: '解决方案',
-        children: [
-          {
-            text: 'CSS&HTML',
-            link: '/solution/CSS-HTML/多边形绘制.md'
-          }
-        ]
+        text: '常用知识',
+        link: '/commonly/CSS-HTML/commonly.md'
+        // children: [
+        //   {
+        //     text: 'CSS&HTML',
+        //     link: '/commonly/CSS-HTML/commonly.md'
+        //   },
+        //   {
+        //     text: 'JavaScript',
+        //     link: '/commonly/javascript/commonly.md'
+        //   },
+        //   {
+        //     text: 'git',
+        //     link: '/commonly/git/commonly.md'
+        //   }
+        // ]
       },
       {
         text: '更多',
-        children: [
-          {
-            text: '常用网站&工具',
-            link: '/more/usedWeb.md'
-          }
-        ]
+        link: '/more/usedWeb.md'
+        // children: [
+        //   {
+        //     text: '常用网站&工具',
+        //     link: '/more/usedWeb.md'
+        //   }
+        // ]
       }
     ],
     sidebar: {
@@ -71,6 +74,12 @@ export default defineUserConfig<DefaultThemeOptions>({
             '/commonly/git/commonly.md'
           ]
         },
+        {
+          text: 'Linux',
+          children: [
+            '/commonly/linux/Linux基础知识.md',
+          ]
+        }
       ],
       /* -----------------------解决方案 模块路由----------------------- */
       '/solution/': [
@@ -91,7 +100,7 @@ export default defineUserConfig<DefaultThemeOptions>({
           children: [
             '/solution/other/echart图例触发不灵敏.md',
             '/solution/other/简单的websocket工具.md',
-            '/solution/other/不同页面通讯问题.md'
+            '/solution/other/不同页面通讯问题.md',
           ]
         },
         // {
