@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: /img/test.png
 heroText: 一本属于个人的技术字典
 tagline: null
 

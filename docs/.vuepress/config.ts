@@ -6,8 +6,11 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: '空巢老黑',
   description: 'Just playing around',
+  head: [
+    ['link', {rel: 'icon', href: '/img/logo-icon.png'}]
+  ],
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
+    logo: '/img/logo-icon.png',
     tip: '提示',
     warning: '注意',
     danger: '警告',
