@@ -9,6 +9,6 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:deploy": "bash deploy.sh"
+    "docs:deploy": "vuepress build -c docs/.vuepress/gh-config.ts docs"
   }
 }

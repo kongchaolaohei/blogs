@@ -9,8 +9,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: '空巢老黑',
   description: 'Just playing around',
+  base: '/blogs/',
   head: [
-    ['link', {rel: 'icon', href: '/img/logo-icon.png'}]
+    ['link', { rel: 'icon', href: '/img/logo-icon.png' }]
   ],
   themeConfig: {
     logo: '/img/logo-icon.png',
