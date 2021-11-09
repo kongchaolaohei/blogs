@@ -1,4 +1,11 @@
 #!/usr/bin/env sh
+###
+# @Author: kongchaolaohei
+# @Date: 2021-10-06 11:42:59
+# @LastEditTime: 2021-11-09 16:11:00
+# @LastEditors: kongchaolaohei
+# @FilePath: /vuepress-note/deploy.sh
+###
 
 # 确保脚本抛出遇到的错误
 set -e
