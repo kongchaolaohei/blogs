@@ -85,6 +85,12 @@ export default defineUserConfig<DefaultThemeOptions>({
           children: [
             '/commonly/linux/Linux基础知识.md',
           ]
+        },
+        {
+          text: '其他',
+          children: [
+            '/commonly/other/VSCode调试TS.md',
+          ]
         }
       ],
       /* -----------------------解决方案 模块路由----------------------- */
