@@ -1,0 +1,43 @@
+<!--
+ * @Author: kongchaolaohei
+ * @Date: 2021-12-17 14:27:56
+ * @LastEditTime: 2021-12-17 15:30:50
+ * @LastEditors: kongchaolaohei
+ * @FilePath: /vuepress-note/docs/solution/other/node项目内网部署.md
+-->
+
+# node 项目内网部署
+
+目前有一个项目需要在内网环境中部署,无法使用网络来下载依赖环境.
+为了解决这个问题,我采用了将整个目录压缩的方法.
+
+# Mac 以及 Linux
+
+在 `shell` 中使用 `zip` 命令来压缩项目包
+
+```
+zip -r -y project_dir.zip project_dir
+```
+
+压缩完成后,复制到目标环境后,直接运行 `npm` 进行后续的操作即可
+
+:::tip 注意
+
+1. 使用 `zip` 压缩时需要带上 `-y` 参数,否则会导致挤压之后文件不全,运行 `npm` 打包命令报错.[zip 命令](https://www.runoob.com/linux/linux-comm-zip.html)
+2. 在压缩项目目录之前,看一看自己的项目中是否有全局依赖,如果有那么需要将它转为项目依赖,否则运行 `npm` 打包命令报错
+3. 如没有合适 node 的环境,请自行安装
+4. linux 系统与 windows 的压缩包不通用
+
+:::
+
+# Windows
+
+直接压缩即可,压缩完成后,复制到目标环境后,直接运行 `npm` 进行后续的操作即可
+
+:::tip 注意
+
+1. 在压缩项目目录之前,看一看自己的项目中是否有全局依赖,如果有那么需要将它转为项目依赖,否则运行 `npm` 打包命令报错(windows 系统下同样要注意)
+2. 如没有合适 node 的环境,请自行安装
+3. linux 系统与 windows 的压缩包不通用
+
+:::
