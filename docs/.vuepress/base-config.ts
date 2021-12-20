@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-11-09 16:16:43
- * @LastEditTime: 2021-12-17 15:17:58
+ * @LastEditTime: 2021-12-20 10:26:41
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/base-config.ts
  */
@@ -108,7 +108,8 @@ export const themeConfig = {
           '/solution/other/echart图例触发不灵敏.md',
           '/solution/other/简单的websocket工具.md',
           '/solution/other/不同页面通讯问题.md',
-          '/solution/other/node项目内网部署.md'
+          '/solution/other/node项目内网部署.md',
+          '/solution/other/重装mac系统xcode命令工具.md'
         ]
       },
       // {
