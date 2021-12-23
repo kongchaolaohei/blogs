@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-11-09 16:16:43
- * @LastEditTime: 2021-12-21 13:54:38
+ * @LastEditTime: 2021-12-22 10:05:12
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/base-config.ts
  */
@@ -85,7 +85,8 @@ export const themeConfig = {
         text: '其他',
         children: [
           '/commonly/other/VSCode调试TS.md',
-          '/commonly/other/yarn常用操作.md'
+          '/commonly/other/yarn常用操作.md',
+          '/commonly/other/npm常用操作.md'
         ]
       }
     ],
