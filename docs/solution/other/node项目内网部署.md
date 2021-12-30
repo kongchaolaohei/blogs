@@ -1,7 +1,7 @@
 <!--
  * @Author: kongchaolaohei
  * @Date: 2021-12-17 14:27:56
- * @LastEditTime: 2021-12-17 15:30:50
+ * @LastEditTime: 2021-12-28 14:16:58
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/solution/other/node项目内网部署.md
 -->
@@ -11,7 +11,7 @@
 目前有一个项目需要在内网环境中部署,无法使用网络来下载依赖环境.
 为了解决这个问题,我采用了将整个目录压缩的方法.
 
-# Mac 以及 Linux
+## Mac 以及 Linux
 
 在 `shell` 中使用 `zip` 命令来压缩项目包
 
@@ -30,7 +30,7 @@ zip -r -y project_dir.zip project_dir
 
 :::
 
-# Windows
+## Windows
 
 直接压缩即可,压缩完成后,复制到目标环境后,直接运行 `npm` 进行后续的操作即可
 
