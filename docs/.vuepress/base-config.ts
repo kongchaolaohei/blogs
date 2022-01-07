@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-11-09 16:16:43
- * @LastEditTime: 2021-12-28 10:23:07
+ * @LastEditTime: 2022-01-07 16:44:37
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/base-config.ts
  */
@@ -84,7 +84,8 @@ export const themeConfig = {
       {
         text: 'vue3.x',
         children: [
-          '/commonly/vue3/多根元素组件样式选择问题.md'
+          '/commonly/vue3/多根元素组件样式选择问题.md',
+          '/commonly/vue3/自定义v-model以及衍生用法.md'
         ]
       },
       {
