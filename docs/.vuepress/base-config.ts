@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-11-09 16:16:43
- * @LastEditTime: 2022-01-07 16:44:37
+ * @LastEditTime: 2022-02-15 10:31:02
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/base-config.ts
  */
@@ -66,7 +66,8 @@ export const themeConfig = {
       {
         text: 'JavaScript常用操作',
         children: [
-          '/commonly/javascript/commonly.md'
+          '/commonly/javascript/commonly.md',
+          '/commonly/javascript/安全随机数.md'
         ]
       },
       {

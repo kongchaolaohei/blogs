@@ -1,7 +1,7 @@
 <!--
  * @Author: kongchaolaohei
  * @Date: 2021-08-23 14:12:05
- * @LastEditTime: 2021-12-20 16:20:12
+ * @LastEditTime: 2022-01-20 10:26:52
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/commonly/git/commonly.md
 -->
@@ -13,6 +13,13 @@
 ```shell
 git checkout -b localBranch origin/originBranch
 git checkout -b [本地分支名] [远程源的名称]/[要跟踪的远程分支的名称]
+```
+
+## 创建指定历史版本的分支
+
+```shell
+git checkout -b new-branch-for-oldVersion 6a3003e1493ca8a7f5ee808e5884b879293495fc
+git checkout -b [新建分支] [当前分支包含的历史版本哈希值]
 ```
 
 ## 回退版本后,想要找回会退的版本
