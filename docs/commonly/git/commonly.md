@@ -1,11 +1,3 @@
-<!--
- * @Author: kongchaolaohei
- * @Date: 2021-08-23 14:12:05
- * @LastEditTime: 2022-01-20 10:26:52
- * @LastEditors: kongchaolaohei
- * @FilePath: /vuepress-note/docs/commonly/git/commonly.md
--->
-
 # git 常用操作
 
 ## 在本地仓创建关联远程仓库分支

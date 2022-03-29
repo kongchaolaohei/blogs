@@ -1,11 +1,3 @@
-<!--
- * @Author: kongchaolaohei
- * @Date: 2021-11-09 15:04:22
- * @LastEditTime: 2021-11-09 15:53:41
- * @LastEditors: kongchaolaohei
- * @FilePath: /vuepress-note/docs/commonly/other/VSCode调试TS.md
--->
-
 # VSCode 调试 TS
 
 使用以下调试文件的配置(两个配置都可以),便可正常 TS 代码了.[更多信息](https://go.microsoft.com/fwlink/?linkid=830387)

@@ -1,11 +1,3 @@
-<!--
- * @Author: kongchaolaohei
- * @Date: 2021-12-21 14:36:19
- * @LastEditTime: 2021-12-21 14:57:04
- * @LastEditors: kongchaolaohei
- * @FilePath: /vuepress-note/docs/commonly/other/npm常用操作.md
--->
-
 # npm 常用操作
 
 ## npm 获取已下载模块列表

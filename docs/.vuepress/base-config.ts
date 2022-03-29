@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-11-09 16:16:43
- * @LastEditTime: 2022-02-15 10:31:02
+ * @LastEditTime: 2022-03-29 11:53:13
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/base-config.ts
  */
@@ -103,7 +103,8 @@ export const themeConfig = {
       {
         text: 'CSS&HTML解决方案',
         children: [
-          '/solution/CSS-HTML/多边形绘制.md'
+          '/solution/CSS-HTML/多边形绘制.md',
+          '/solution/CSS-HTML/监听DOM尺寸变化.md',
         ]
       },
       {
@@ -113,9 +114,15 @@ export const themeConfig = {
         ]
       },
       {
+        text: 'ECharts相关解决方案',
+        children: [
+          '/solution/echarts/echarts图例触发不灵敏.md',
+          '/solution/echarts/echarts实例更新导致datazoom重置问题.md',
+        ]
+      },
+      {
         text: '其他解决方案',
         children: [
-          '/solution/other/echart图例触发不灵敏.md',
           '/solution/other/简单的websocket工具.md',
           '/solution/other/不同页面通讯问题.md',
           '/solution/other/node项目内网部署.md',

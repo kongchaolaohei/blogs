@@ -1,11 +1,3 @@
-<!--
- * @Author: kongchaolaohei
- * @Date: 2021-12-21 13:48:15
- * @LastEditTime: 2021-12-21 14:57:58
- * @LastEditors: kongchaolaohei
- * @FilePath: /vuepress-note/docs/commonly/other/yarn常用操作.md
--->
-
 # yarn 常用操作
 
 ## 使用 yarn 删除全局下载的模块

@@ -1,11 +1,3 @@
-<!--
- * @Author: kongchaolaohei
- * @Date: 2022-01-07 16:17:42
- * @LastEditTime: 2022-01-07 17:50:21
- * @LastEditors: kongchaolaohei
- * @FilePath: /vuepress-note/docs/commonly/vue3/自定义v-model以及衍生用法.md
--->
-
 # 自定义 `v-model` 以及衍生用法
 
 自己摸索了了自定义`v-model`的几种用法,如有不妥请多指教.

@@ -1,11 +1,3 @@
-<!--
- * @Author: kongchaolaohei
- * @Date: 2021-12-17 14:27:56
- * @LastEditTime: 2021-12-28 14:16:58
- * @LastEditors: kongchaolaohei
- * @FilePath: /vuepress-note/docs/solution/other/node项目内网部署.md
--->
-
 # node 项目内网部署
 
 目前有一个项目需要在内网环境中部署,无法使用网络来下载依赖环境.

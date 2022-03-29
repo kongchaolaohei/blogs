@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-10-06 12:59:20
- * @LastEditTime: 2021-11-09 17:00:42
+ * @LastEditTime: 2022-03-29 14:11:36
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/gh-config.ts
  */
@@ -20,5 +20,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   head: [
     ['link', { rel: 'icon', href: '/blogs/img/logo-icon.png' }]
   ],
-  themeConfig: themeConfig
+  themeConfig: themeConfig,
+  plugins: [
+    '@vuepress/plugin-search',
+  ],
 })
