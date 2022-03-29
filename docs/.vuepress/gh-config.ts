@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-10-06 12:59:20
- * @LastEditTime: 2022-03-29 14:11:36
+ * @LastEditTime: 2022-03-29 15:53:31
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/gh-config.ts
  */
@@ -22,6 +22,18 @@ export default defineUserConfig<DefaultThemeOptions>({
   ],
   themeConfig: themeConfig,
   plugins: [
-    '@vuepress/plugin-search',
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+        // hotKeys: ["Control","k"]
+        // 允许搜索 Frontmatter 中的 `tags`
+        getExtraFields: (page) => page.frontmatter.tags ?? [],
+      },
+    ]
   ],
 })
