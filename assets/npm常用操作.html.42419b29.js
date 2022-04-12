@@ -1,0 +1,8 @@
+import{e as n}from"./app.115e6629.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},e=n(`<h1 id="npm-\u5E38\u7528\u64CD\u4F5C" tabindex="-1"><a class="header-anchor" href="#npm-\u5E38\u7528\u64CD\u4F5C" aria-hidden="true">#</a> npm \u5E38\u7528\u64CD\u4F5C</h1><h2 id="npm-\u83B7\u53D6\u5DF2\u4E0B\u8F7D\u6A21\u5757\u5217\u8868" tabindex="-1"><a class="header-anchor" href="#npm-\u83B7\u53D6\u5DF2\u4E0B\u8F7D\u6A21\u5757\u5217\u8868" aria-hidden="true">#</a> npm \u83B7\u53D6\u5DF2\u4E0B\u8F7D\u6A21\u5757\u5217\u8868</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># \u83B7\u53D6\u5DF2\u4E0B\u8F7D\u6A21\u5757\u5217\u8868</span>
+<span class="token function">npm</span> list
+<span class="token comment"># \u83B7\u53D6\u5168\u5C40\u5DF2\u4E0B\u8F7D\u6A21\u5757\u5217\u8868</span>
+<span class="token function">npm</span> list -g
+<span class="token comment"># \u5F53\u4E0B\u8F7D\u6A21\u5757\u8FC7\u591A\u4E0D\u65B9\u4FBF\u67E5\u770B\u53EF\u4EE5\u9650\u5236\u5C42\u6570</span>
+<span class="token function">npm</span> list --depth <span class="token number">0</span>
+<span class="token function">npm</span> list --depth <span class="token number">0</span> -g
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div>`,3);function p(r,c){return e}var i=s(a,[["render",p]]);export{i as default};

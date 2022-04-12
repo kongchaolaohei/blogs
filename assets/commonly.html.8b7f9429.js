@@ -1,0 +1,1 @@
+const o={key:"v-08ed6f9d",path:"/commonly/javascript/commonly.html",title:"\u524D\u8A00",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1630054947e3,contributors:[{name:"kongchaolaohei",email:"kongchaolaohei@xxx.com",commits:1}]},filePathRelative:"commonly/javascript/commonly.md"};export{o as data};

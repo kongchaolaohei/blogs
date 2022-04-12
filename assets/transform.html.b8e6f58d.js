@@ -1,0 +1,1 @@
+const t={key:"v-1a055d8c",path:"/commonly/CSS-HTML/transform/transform.html",title:"transform",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"skew",slug:"skew",children:[]}],git:{updatedTime:1630054947e3,contributors:[{name:"kongchaolaohei",email:"kongchaolaohei@xxx.com",commits:1}]},filePathRelative:"commonly/CSS-HTML/transform/transform.md"};export{t as data};

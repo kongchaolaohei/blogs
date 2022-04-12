@@ -1,0 +1,1 @@
+const t={key:"v-a65993a8",path:"/commonly/CSS-HTML/palce-content.html",title:"place-content",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1644894622e3,contributors:[{name:"kongchaolaohei",email:"kongchaolaohei@qq.com",commits:1}]},filePathRelative:"commonly/CSS-HTML/palce-content.md"};export{t as data};
