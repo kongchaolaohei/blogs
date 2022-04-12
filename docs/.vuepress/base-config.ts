@@ -1,7 +1,7 @@
 /*
  * @Author: kongchaolaohei
  * @Date: 2021-11-09 16:16:43
- * @LastEditTime: 2022-03-29 11:53:13
+ * @LastEditTime: 2022-03-30 11:37:43
  * @LastEditors: kongchaolaohei
  * @FilePath: /vuepress-note/docs/.vuepress/base-config.ts
  */
@@ -50,6 +50,10 @@ export const themeConfig = {
       //     link: '/more/usedWeb.md'
       //   }
       // ]
+    },
+    {
+      text: 'GitHub',
+      link: 'https://github.com/kongchaolaohei'
     }
   ],
   sidebar: {
